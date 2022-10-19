@@ -1,0 +1,38 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dummy-dummy-122135-authRole",
+      "UnauthRoleArn": "arn:aws:iam::680624154995:role/amplify-dummy-dummy-122135-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::680624154995:role/amplify-dummy-dummy-122135-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-dummy-dummy-122135-deployment",
+      "UnauthRoleName": "amplify-dummy-dummy-122135-unauthRole",
+      "StackName": "amplify-dummy-dummy-122135",
+      "StackId": "arn:aws:cloudformation:us-west-2:680624154995:stack/amplify-dummy-dummy-122135/1d63c5c0-42c2-11ed-89e6-025eb83456df",
+      "AmplifyAppId": "d2pw39jy3zy0id"
+    }
+  },
+  "function": {
+    "lambdaapi": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "api": {
+    "api": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "lambdaapi",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  }
+}

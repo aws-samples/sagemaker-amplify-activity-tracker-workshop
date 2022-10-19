@@ -1,0 +1,6 @@
+[
+  {
+    "Action": ["sagemaker:InvokeEndpoint"],
+    "Resource": ["*"]
+  }
+]

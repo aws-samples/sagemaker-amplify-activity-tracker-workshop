@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "labels",
+      "environmentVariableName": "recline,walk,desk,run,sit"
+    },
+    {
+      "cloudFormationParameterName": "smendpointname",
+      "environmentVariableName": "activity-pipeline"
+    }
+  ]
+}
