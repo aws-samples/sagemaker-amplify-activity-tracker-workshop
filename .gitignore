@@ -1,4 +1,4 @@
-.DS_STORE
+.DS_Store
 .ipynb_checkpoints
 node_modules
 scripts/flow/*/.flowconfig
