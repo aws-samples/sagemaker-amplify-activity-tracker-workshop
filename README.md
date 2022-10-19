@@ -29,11 +29,11 @@ Load the notebook:
 ### Charges and Quotas
 
 Aspects of this project will incur a charge.  Before deploying any element of this project
-please check the AWS pricing pages for the relevant services before deploying. For more information about AWS service pricing, see (here)[https://aws.amazon.com/pricing].
+please check the AWS pricing pages for the relevant services before deploying. For more information about AWS service pricing, see [here](https://aws.amazon.com/pricing).
 
 Code in this project will make calls to run infrastructure in Amazon SageMaker.  In some cases, 
 such as brand new accounts, you may find that the quota levels of the account prevent the deployment
-of this project.  Check the current quota levels of your AWS account, and request quota limit raises as you need.  For more information about AWS service quotas, see (here)[https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html].
+of this project.  Check the current quota levels of your AWS account, and request quota limit raises as you need.  For more information about AWS service quotas, see [here](https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html).
 
 ## Security
 
